@@ -1,0 +1,19 @@
+.my-button {
+  min-width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.my-button--primary {
+  background-color: royalblue;
+  color: white;
+  border: none;
+}
+
+.my-button--bordered {
+  background-color: none;
+  color: royalblue;
+  border: 1px solid royalblue;
+}
