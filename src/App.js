@@ -1,10 +1,10 @@
-import { Button } from "./components/Button";
+import Button from "./components/Button";
 
 function App() {
   return (
     <div>
-      <Button variant="bordered">Confirm</Button>
-      <Button>Cancel</Button>
+      <Button>Confirm</Button>
+      <Button variant="bordered">Cancel</Button>
     </div>
   );
 }

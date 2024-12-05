@@ -3,17 +3,23 @@
   height: 40px;
   border-radius: 8px;
   cursor: pointer;
+
   font-size: 18px;
+  transition: background-color 200ms ease-in-out;
+}
+
+.my-button:hover {
+  background-color: #048b04;
 }
 
 .my-button--primary {
-  background-color: royalblue;
-  color: white;
+  background-color: #06b106;
   border: none;
+  color: white;
 }
 
 .my-button--bordered {
-  background-color: none;
-  color: royalblue;
-  border: 1px solid royalblue;
+  background: none;
+  border: 1px solid #06b106;
+  color: #06b106;
 }
