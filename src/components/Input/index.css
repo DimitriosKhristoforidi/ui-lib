@@ -1,0 +1,37 @@
+.label {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.label:has(.input:focus) {
+  color: #006fee;
+}
+
+.label:has(.input--danger:focus),
+.label--danger {
+  color: #ff4d4f;
+}
+
+.input {
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #e4e4e7;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 12px;
+}
+
+.input:focus {
+  border-color: #006fee;
+}
+
+.input--danger,
+.input--danger:focus {
+  border-color: #ff4d4f;
+  color: #ff4d4f;
+}

@@ -1,0 +1,37 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.accordion__title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accordion__title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.accordion__title:hover {
+  background-color: #f1f1f1;
+}
+
+.accordion__title button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.accordion__content {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 18px;
+}
